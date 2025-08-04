@@ -1,0 +1,19 @@
+root{
+    --colors1: #FF6B35; /* Black */
+    --colors2: #F7C59F; /* Black */
+    --colors3: #EFEFD0; /* Black */
+    --colors4: #004E89; /* White */
+    --colors5: #1A659E; /* White */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Rôles</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Liste des différents rôles</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom du rôle</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Invité</td>
+                    <td>Un invité peut s’identifier
+                        <br>
+                        Après identification, il est redirigé vers la page de son profil
+                        <br>
+                        Un invité peut créer un compte s’il dispose du code d’inscription
+                        <br>
+                        Après la création, il est redirigé vers le formulaire d’identification
+                        <br>
+                        Un invité peut demander à réinitialiser son mot de passe
+                    </td>
+                </tr>
+                <tr>    
+                    <td>Usager</td>
+                    <td>Un usager peut consulter son profil
+                        <br>
+                        Un usager peut modifier les informations de son propre profil sauf son rôle
+                        <br>
+                        Un usager peut parcourir la liste des utilisateurs enregistrés
+                        <br>
+                        La liste des utilisateurs affiche : Nom, Prénom, Intitulé du rôle
+                        <br>
+                        Un usager ne peut pas consulter les fiches individuelles des autres utilisateurs
+                        <br>
+                        Un usager peut se déconnecter de l’application
+                    </td>
+                </tr>
+                <tr>    
+                    <td>Encadrant</td>
+                    <td>Un encadrant est un usager avec privilèges accrus
+                        <br>
+                        Un encadrant peut consulter les profils individuels des usagers et encadrants
+                        <br>
+                        Un encadrant peut modifier les informations des usagers sauf leur rôle et leur mot de passe
+                    </td>
+                </tr>
+                <tr>    
+                    <td>Administrateur</td>
+                    <td>Un administrateur est un encadrant avec privilèges accrus
+                        <br>
+                        Un administrateur peut consulter le profil individuel de n’importe quel utilisateur
+                        <br>
+                        Un administrateur peut modifier toutes les informations d’un utilisateur enregistré
+                        <br>
+                        Un administrateur peut ajouter un utilisateur sans code d’inscription
+                        <br>
+                        Un administrateur peut supprimer un utilisateur
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
