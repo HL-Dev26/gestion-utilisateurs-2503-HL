@@ -9,14 +9,32 @@
 
 <body>
     <header>
-
+        
     </header>
     <main>
         <h1>Ajouter un rôle</h1>
-
+        <form>
+        <fieldset>
+            <legend>Les champs marqués d'un <span>*</span> sont obligatoires</legend>
+            <div>
+            <label>Nom du rôle:<span>*</span></label>
+            </div>
+            <div>
+            <input id="role" type="text" required placeholder="SuperUser">
+            </div>
+            <div>
+            <label>Description du rôle:<span>*</span></label>
+            </div>
+            <div>
+            <textarea cols="0" rows="4" name="" id=""></textarea>
+            </div>
+        </fieldset>
+        </form>
+            <input class="valider" type="button" value="Valider">
     </main>
     <footer>
-
+        <p id="retourA"><a href="./index.html"><span id="retourA">Retour à l'accueil</span></a></p>
+        <p>Copyright &copy; 2025 <span id="credits">ludovic Humery</span></p>
     </footer>
 </body>
 

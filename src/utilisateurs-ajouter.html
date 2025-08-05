@@ -9,13 +9,43 @@
 
 <body>
     <header>
-
+            <h1>Créer votre compte</h1>
     </header>
     <main>
+        
+        <form>
+            <fieldset>
+                <legend>Les champs marqués d'un <span>*</span> sont obligatoires</legend>
+            <div>
+            <label for="Pseudo">Nom d'utilisateur (Pseudo)<span>*</span></label>
+            <input id="pseudo" name="nomUtilisateur" type="text" required placeholder="Nom d'utilisateur">
+            </div>
+            <div>
+                <label for="Nom">Nom<span>*</span></label>
+                <input id="nom" name="nom" type="text" required placeholder="Nom">
+            </div>
+            <div>
+                <label>Prénom<span>*</span></label>
+                <input id="Prenom" name="prenom" type="text" required placeholder="Prénom">
+            </div>
+            <div>
+                <label>Date de naissance<span>*</span></label>
+                <input id="dateN" name="dateNaissance" type="date" required placeholder="">
+            </div>
+            <div>
+                <label>email<span>*</span></label>
+                <input id="email" name="email" type="email" required placeholder="email@exemple.com">
+            </div>
+            </fieldset>
+        </form>
+        <div>
+            <input class="valider" type="button" value="Valider">
+        </div>
 
     </main>
     <footer>
-
+        <p id="retourA"><a href="./index.html"><span id="retourA">Retour à l'accueil</span></a></p>
+        <p>Copyright &copy; 2025 <span id="credits">ludovic Humery</span></p>
     </footer>
 </body>
 
