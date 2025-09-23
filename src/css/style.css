@@ -14,7 +14,7 @@ html{
     font-size: 62.5%;
 }
 
-body{
+main{
     font-size: 1.6rem;
     background-color: var(--colors4);
     width: 80rem;
@@ -40,6 +40,7 @@ td, th{
 header{
     display: flex;
     flex-direction: row;
+    background-color: var(--colors4);
 }
 
 img{
