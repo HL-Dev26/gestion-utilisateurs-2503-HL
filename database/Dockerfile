@@ -1,5 +1,5 @@
 # Création d'image 
-FROM mariadb:11
+FROM mariadb:11.8.3
 
 #Variables d'environnement
 
