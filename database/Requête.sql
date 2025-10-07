@@ -6,7 +6,7 @@ DROP : Supprimer une structure de données existante
 
 Structures de données : DATABASE, TABLE, VIEW, FUNCTION, PROCEDURE, TRIGGER
 */
-USE MYSQL_DATABASE;
+USE db_users;
 DROP TABLE IF EXISTS t_user;
 DROP TABLE IF EXISTS t_role;
 # TRUNCATE TABLE t_role;

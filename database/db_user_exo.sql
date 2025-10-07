@@ -40,12 +40,12 @@ SELECT user_id, user_lastname, user_email FROM t_user WHERE user_lastname= 'inga
 
 /*Sélectionner toutes les informations des utilisateurs sans prénom.*/
 
-SELECT user_id, user_email, user_lastname, user_firstname, user_password, role_id FROM t_user WHERE user_firstname IS NULL;
+SELECT user_id, user_email, user_lastname, user_firstname, user_password, role_id FROM t_user WHERE user_firstname IS NULL OR user_firstname='';
 
 
 /*Sélectionner toutes les informations des utilisateurs avec un prénom. Le résultat est trié par identifiant (ordre décroissant)*/
 
-SELECT user_id, user_email, user_lastname, user_firstname, user_password, role_id FROM t_user WHERE user_firstname IS NOT NULL ORDER BY user_id DESC;
+SELECT user_id, user_email, user_lastname, user_firstname, user_password, role_id FROM t_user WHERE user_firstname IS NOT NULL AND user_firstname <> '' ORDER BY user_id DESC;
 
 
 /*Sélectionner l'identifiant et le nom des utilisateurs dont le nom contient la lettre "g".*/
